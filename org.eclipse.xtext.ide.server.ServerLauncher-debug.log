@@ -1,0 +1,223 @@
+Xtext Language Server is starting.
+Xtext Language Server has been started.
+{
+  "jsonrpc": "2.0",
+  "id": "0",
+  "method": "initialize",
+  "params": {
+    "processId": 6900,
+    "rootPath": "h:\\Romhack\\Traduções em Andamento\\Mega\\Elemental Master",
+    "rootUri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master",
+    "capabilities": {
+      "workspace": {
+        "didChangeConfiguration": {
+          "dynamicRegistration": true
+        },
+        "didChangeWatchedFiles": {
+          "dynamicRegistration": true
+        },
+        "symbol": {
+          "dynamicRegistration": true
+        },
+        "executeCommand": {
+          "dynamicRegistration": true
+        }
+      },
+      "textDocument": {
+        "synchronization": {
+          "willSave": true,
+          "willSaveWaitUntil": true,
+          "didSave": true,
+          "dynamicRegistration": true
+        },
+        "completion": {
+          "completionItem": {
+            "snippetSupport": true
+          },
+          "dynamicRegistration": true
+        },
+        "hover": {
+          "dynamicRegistration": true
+        },
+        "signatureHelp": {
+          "dynamicRegistration": true
+        },
+        "references": {
+          "dynamicRegistration": true
+        },
+        "documentHighlight": {
+          "dynamicRegistration": true
+        },
+        "documentSymbol": {
+          "dynamicRegistration": true
+        },
+        "formatting": {
+          "dynamicRegistration": true
+        },
+        "rangeFormatting": {
+          "dynamicRegistration": true
+        },
+        "onTypeFormatting": {
+          "dynamicRegistration": true
+        },
+        "definition": {
+          "dynamicRegistration": true
+        },
+        "codeAction": {
+          "dynamicRegistration": true
+        },
+        "codeLens": {
+          "dynamicRegistration": true
+        },
+        "documentLink": {
+          "dynamicRegistration": true
+        },
+        "rename": {
+          "dynamicRegistration": true
+        }
+      }
+    },
+    "trace": "off"
+  }
+}
+0    [pool-1-thread-1] INFO      org.eclipse.xtext.build.Indexer  - Creating Deltas for changes. Deleted : [], Changed : [].
+285  [pool-1-thread-1] INFO      org.eclipse.xtext.build.Indexer  - Creating Deltas for changes. Deleted : [], Changed : [file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/asm/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/&About, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/default, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Dump%20Teste2, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Dump%20texto, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Dump%20Texto%203, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Dump%20Texto%204, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Dump%20Texto2, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Dumpe%20texto1, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Dump_Final, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/Elemental%20Master.gen, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/Elemental%20Master.id0, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/Elemental%20Master.id1, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/Elemental%20Master.nam, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/Elemental%20Master.til, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/gemfire%20-%20large/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/gemfire%20-%20large/Gemfire%20-%20Large%20Font.bmp, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/gemfire%20-%20large/Gemfire%20-%20Large%20Font.tbl, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/gemfire%20-%20large.rar, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/Modern+DOS/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/Modern+DOS/Modern%20DOS%20(1).bmp, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/Modern+DOS/Modern%20DOS%20(2).bmp, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/Modern+DOS.zip, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/SemiThin/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/SemiThin/SemiThin.bmp, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/SemiThin.rar, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/titulo.png, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/titulo.psd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/vram.bin, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/Ys%20III%20Font/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/Ys%20III%20Font/11.png, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/Ys%20III%20Font/22.png, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/Ys%20III%20Font/Ys%20III.tbl, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/Ys%20III%20Font/YsIII%20Font.bmp, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master/Ys%20III%20Font.rar, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Elemental%20Master.zip, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/GAME_OVER.png, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Gens.cfg, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/IMG_20220417_122320.jpg, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/pal.bin, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/pal.pal, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/RIPMaster.md, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/RIPMaster.tbl, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/RIPMaster1%20(2).md, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/RIPMaster1%20-%20Copia%20-%20Copia%20(2)%20-%20Copia.md, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/RIPMaster1%20-%20Copia%20-%20Copia%20(2).md, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/RIPMaster1%20-%20Copia%20-%20Copia.md, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/RIPMaster1%20-%20Copia.md, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/RIPMaster1.gs0, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/RIPMaster1.id0, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/RIPMaster1.id1, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/RIPMaster1.md, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/RIPMaster1.nam, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/RIPMaster1.til, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Teste%20Dump, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/teste.bin, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Teste.tbl, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/Titulo.png, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/genesis/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/genesis/common.py, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/genesis/data_compression.py, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/genesis/__init__.py, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/genesis/__pycache__/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/genesis/__pycache__/common.cpython-39.pyc, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/genesis/__pycache__/data_compression.cpython-39.pyc, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/genesis/__pycache__/rom.cpython-39.pyc, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/genesis/__pycache__/__init__.cpython-39.pyc, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/main.py, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/romhacking/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/romhacking/common.py, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/romhacking/__init__.py, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/romhacking/__pycache__/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/romhacking/__pycache__/common.cpython-39.pyc, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/romhacking/__pycache__/tbl.cpython-39.pyc, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/romhacking/__pycache__/utils.cpython-39.pyc, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool/romhacking/__pycache__/__init__.cpython-39.pyc, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/tool.zip, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/unknown.png, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/vram_FIM_DE_JOGO%20(1).bin, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Backup/vram_FIM_DE_JOGO.bin, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/bin/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/br/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/Elemental%20Master.code-workspace, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/en/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/export/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/gfx/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/org.eclipse.xtext.ide.server.ServerLauncher-debug.log, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/screenshots/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tbl/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/text/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tilemap/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/00000CB2.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/000018A8.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/0000B7F2.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/0000B990.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/0002A004.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/0002B8DA.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/0002BDAE.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/0002CB8A.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/0002D3C8.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/00170AB6.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001746DE.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/00179340.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/0017CC62.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/0018640E.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/00194CB0.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/00196D18.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/00199844.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001A2D00.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001AB30A.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B269E.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B2B24.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B30CA.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B377E.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B3D26.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B42E4.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B4872.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B4E04.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B4F5E.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B50AA.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B51FC.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B533A.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B546C.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B55C8.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B56DE.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B5828.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B5960.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B5ED8.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B6480.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B69B6.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B6EDC.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B70BA.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B8000.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B8414.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B8A96.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001B9B14.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001BBBFC.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001BBDAC.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001BFE80.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001C0F32.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001C5572.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001C75E4.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001C89BA.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001CE03C.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001CE568.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001D2C82.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001D3D7A.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001D6EEC.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001D732E.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001D857E.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001D9308.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001D9D8C.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001DACC8.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001DC33E.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001DF3A4.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001E17A6.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001E1EBA.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001E4770.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001E52D2.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F1BF2.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F1C16.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F1E84.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F214C.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F2208.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F22B0.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F2348.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F23CE.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F270C.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F29C8.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F2B5E.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F2D4C.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F2F64.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F302C.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F30EE.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F354A.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F388C.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F3AAE.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F5184.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F5A86.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/001F6314.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/00000CB2.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/000018A8.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/0000B7F2.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/0000B990.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/0002A004.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/0002B8DA.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/0002BDAE.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/0002CB8A.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/0002D3C8.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/00170AB6.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001746DE.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/00179340.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/0017CC62.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/0018640E.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/00194CB0.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/00196D18.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/00199844.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001A2D00.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001AB30A.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B269E.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B2B24.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B30CA.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B377E.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B3D26.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B42E4.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B4872.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B4E04.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B4F5E.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B50AA.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B51FC.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B533A.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B546C.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B55C8.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B56DE.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B5828.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B5960.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B5ED8.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B6480.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B69B6.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B6EDC.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B70BA.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B8000.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B8414.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B8A96.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001B9B14.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001BBBFC.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001BBDAC.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001BFE80.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001C0F32.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001C5572.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001C75E4.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001C89BA.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001CE03C.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001CE568.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001D2C82.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001D3D7A.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001D6EEC.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001D732E.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001D857E.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001D9308.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001D9D8C.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001DACC8.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001DC33E.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001DF3A4.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001E17A6.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001E1EBA.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001E4770.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001E52D2.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F1BF2.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F1C16.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F1E84.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F214C.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F2208.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F22B0.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F2348.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F23CE.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F270C.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F29C8.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F2B5E.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F2D4C.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F2F64.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F302C.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F30EE.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F354A.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F388C.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F3AAE.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F5184.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F5A86.smd, file:///h:/Romhack/Traduções%20em%20Andamento/Mega/Elemental%20Master/tmp/gfx1/gfx/001F6314.smd].
+{
+  "jsonrpc": "2.0",
+  "id": "0",
+  "result": {
+    "capabilities": {
+      "textDocumentSync": 2,
+      "hoverProvider": true,
+      "completionProvider": {
+        "resolveProvider": false,
+        "triggerCharacters": [
+          "."
+        ]
+      },
+      "signatureHelpProvider": {
+        "triggerCharacters": [
+          "(",
+          ","
+        ]
+      },
+      "definitionProvider": true,
+      "referencesProvider": true,
+      "documentHighlightProvider": true,
+      "documentSymbolProvider": true,
+      "workspaceSymbolProvider": true,
+      "codeActionProvider": false,
+      "documentFormattingProvider": true,
+      "documentRangeFormattingProvider": true,
+      "renameProvider": true,
+      "executeCommandProvider": {
+        "commands": []
+      }
+    }
+  }
+}
+{
+  "jsonrpc": "2.0",
+  "method": "initialized",
+  "params": {}
+}
+{
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeWatchedFiles",
+  "params": {
+    "changes": [
+      {
+        "uri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git",
+        "type": 1
+      },
+      {
+        "uri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/applypatch-msg.sample",
+        "type": 1
+      },
+      {
+        "uri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/commit-msg.sample",
+        "type": 1
+      }
+    ]
+  }
+}
+2075984 [pool-1-thread-2] INFO      org.eclipse.xtext.build.Indexer  - Creating Deltas for changes. Deleted : [], Changed : [file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git, file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/applypatch-msg.sample, file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/commit-msg.sample].
+{
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeWatchedFiles",
+  "params": {
+    "changes": [
+      {
+        "uri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/fsmonitor-watchman.sample",
+        "type": 1
+      },
+      {
+        "uri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/post-update.sample",
+        "type": 1
+      },
+      {
+        "uri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/pre-applypatch.sample",
+        "type": 1
+      },
+      {
+        "uri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/pre-commit.sample",
+        "type": 1
+      },
+      {
+        "uri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/pre-merge-commit.sample",
+        "type": 1
+      },
+      {
+        "uri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/pre-push.sample",
+        "type": 1
+      },
+      {
+        "uri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/pre-rebase.sample",
+        "type": 1
+      },
+      {
+        "uri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/pre-receive.sample",
+        "type": 1
+      },
+      {
+        "uri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/prepare-commit-msg.sample",
+        "type": 1
+      },
+      {
+        "uri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/update.sample",
+        "type": 1
+      }
+    ]
+  }
+}
+2076242 [pool-1-thread-2] INFO      org.eclipse.xtext.build.Indexer  - Creating Deltas for changes. Deleted : [], Changed : [file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/pre-push.sample, file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/pre-commit.sample, file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/pre-merge-commit.sample, file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/prepare-commit-msg.sample, file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/pre-applypatch.sample, file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/pre-rebase.sample, file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/fsmonitor-watchman.sample, file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/update.sample, file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/pre-receive.sample, file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/hooks/post-update.sample].
+{
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeWatchedFiles",
+  "params": {
+    "changes": [
+      {
+        "uri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/index.lock",
+        "type": 1
+      }
+    ]
+  }
+}
+2076986 [pool-1-thread-2] INFO      org.eclipse.xtext.build.Indexer  - Creating Deltas for changes. Deleted : [], Changed : [file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/index.lock].
+{
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeWatchedFiles",
+  "params": {
+    "changes": [
+      {
+        "uri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/org.eclipse.xtext.ide.server.ServerLauncher-debug.log",
+        "type": 2
+      },
+      {
+        "uri": "file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/index.lock",
+        "type": 3
+      }
+    ]
+  }
+}
+2085080 [pool-1-thread-2] INFO      org.eclipse.xtext.build.Indexer  - Creating Deltas for changes. Deleted : [file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/.git/index.lock], Changed : [file:///h%3A/Romhack/Tradu%C3%A7%C3%B5es%20em%20Andamento/Mega/Elemental%20Master/org.eclipse.xtext.ide.server.ServerLauncher-debug.log].
